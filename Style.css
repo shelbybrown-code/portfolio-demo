@@ -1,10 +1,9 @@
 body{
 background-image: url(https://www.transparenttextures.com/patterns/arabesque.png);
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */);
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 #navbar{
@@ -43,6 +42,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #imageBox {
@@ -53,3 +53,28 @@ header{
     background-size: cover;
 
 }
+
+
+.social:link {
+        color: darkslategrey;
+        background-color: navajowhite;
+        padding: 4px;
+        border: darkslategray 1px solid;
+        border-radius: 3px;
+        padding: 4px;
+        }
+.social:visited {
+        color:black;
+        padding: 4px;
+        border: darkslategray 1px solid;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+ .social:hover {
+        background-color: navajowhite;
+        padding: 4px;
+        border: darkslategray 3px solid;
+        border-radius: 3px;
+        padding: 4px;
+    }
